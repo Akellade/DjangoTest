@@ -1,8 +1,8 @@
 {% extends 'blog/base.html' %}
 
-<div>
-    <h2>Recent Posts</h2>
     {% block content %}
+        <div>
+            <h2>Test</h2>
         {% for post in posts %}
             <div class="post">
                 <div class="date">
@@ -12,5 +12,5 @@
                 <p>{{ post.text|linebreaksbr }}</p>
             </div>
         {% endfor %}
+        </div>
     {% endblock %}
-</div>
