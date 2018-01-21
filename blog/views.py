@@ -65,5 +65,5 @@ def post_remove(request, pk):
 
 
 def home(request):
-    posts = Post.objects.filter(published_date__lte=timezone.now())[:5].order_by('published_date')
+    posts = Post.objects.filter(published_date__lte=timezone.now()).order_by('published_date')[:5]
     return render(request, 'blog/home.html', {'posts': posts})
