@@ -1,25 +1,25 @@
 .page-header {
-    background-color: #61a8ff;
+    background-color: rgba(0, 0, 0, 0.29);
     margin-top: 0;
     padding: 20px 20px 20px 40px;
 }
 
 .page-header h1, .page-header h1 a, .page-header h1 a:visited, .page-header h1 a:active {
-    color: #0419ff;
+    color: #ffffff;
     font-size: 36pt;
     text-decoration: none;
 }
 
 .content {
-    margin-left: 80px;
+    margin-left: 40px;
 }
 
 h1, h2, h3, h4 {
-    font-family: 'Roboto', normal;
+    font-family: 'Roboto', monospace;
 }
 
 .date {
-    color: #828282;
+    color: #ffffff;
 }
 
 .save {
@@ -44,32 +44,3 @@ h1, h2, h3, h4 {
 .post h1 a, .post h1 a:visited {
     color: #000000;
 }
-
-.sidenav {
-    height: 100%; /* 100% Full-height */
-    width: 80px; /* 0 width - change this with JavaScript */
-    position: fixed; /* Stay in place */
-    z-index: 1; /* Stay on top */
-    top: 0; /* Stay at the top */
-    left: 0;
-    background-color: #111; /* Black*/
-    overflow-x: hidden; /* Disable horizontal scroll */
-    padding-top: 60px; /* Place content 60px from the top */
-    transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
-}
-
-/* The navigation menu links */
-.sidenav a {
-    padding: 8px 8px 8px 32px;
-    text-decoration: none;
-    font-size: 25px;
-    color: #818181;
-    display: block;
-    transition: 0.3s;
-}
-
-/* When you mouse over the navigation links, change their color */
-.sidenav a:hover {
-    color: #f1f1f1;
-}
-
